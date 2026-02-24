@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website in 48 Uur - VeloxDigital</title>
+    <meta name="description" content="Krijg je professionele website online in slechts 48 uur. Reactie binnen 24 uur. Vanaf €399 met 3 maanden gratis support.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero-speed {
+            position: absolute;
+            inset: 0;
+            overflow: hidden;
+            z-index: -1;
+        }
+        .speed-line {
+            position: absolute;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--primary-light), transparent);
+            animation: speedLine 2s linear infinite;
+        }
+        @keyframes speedLine {
+            0% { transform: translateX(-100%); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateX(100vw); opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigatie -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">VeloxDigital</a>
+            
+            <div class="nav-links">
+                <div class="dropdown">
+                    <a href="index.html#diensten" class="nav-link">Diensten ▾</a>
+                    <div class="dropdown-menu">
+                        <a href="website-48-uur.html" class="dropdown-item">Website in 48 Uur</a>
+                        <a href="webshops.html" class="dropdown-item">E-commerce Webshops</a>
+                        <a href="marketing-websites.html" class="dropdown-item">Marketing Websites</a>
+                        <a href="maatwerk.html" class="dropdown-item">Maatwerk Ontwikkeling</a>
+                    </div>
+                </div>
+                <a href="index.html#portfolio" class="nav-link">Portfolio</a>
+                <a href="index.html#over-ons" class="nav-link">Over ons</a>
+                <a href="index.html#prijzen" class="nav-link">Prijzen</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#contact" class="btn btn-primary">Gratis adviesgesprek</a>
+            </div>
+            
+            <button class="mobile-menu-btn" aria-label="Menu openen">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Sectie -->
+    <section class="hero">
+        <div class="hero-speed">
+            <div class="speed-line" style="top: 20%; width: 200px; animation-delay: 0s;"></div>
+            <div class="speed-line" style="top: 35%; width: 300px; animation-delay: 0.3s;"></div>
+            <div class="speed-line" style="top: 50%; width: 150px; animation-delay: 0.6s;"></div>
+            <div class="speed-line" style="top: 65%; width: 250px; animation-delay: 0.9s;"></div>
+            <div class="speed-line" style="top: 80%; width: 180px; animation-delay: 1.2s;"></div>
+        </div>
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>⚡</span>
+                    <span>Onze snelste dienst</span>
+                </div>
+                <h1 class="hero-title">Website in <span class="text-gradient">48 Uur</span></h1>
+                <p class="hero-subtitle">Binnen 2 dagen online. Reactie op je aanvraag binnen 24 uur.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary btn-lg">Start je project</a>
+                    <a href="#wat-je-krijgt" class="btn btn-secondary btn-lg">Wat is inbegrepen</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Probleem/Oplossing Sectie -->
+    <section class="section">
+        <div class="container">
+            <div class="problem-solution">
+                <div class="ps-card problem">
+                    <span class="ps-label">❌ Het Probleem</span>
+                    <h3 class="ps-title">Je hebt nu een website nodig, niet over 3 maanden.</h3>
+                    <p class="ps-text">Traditionele bureaus nemen weken of zelfs maanden om een website te leveren. Je verliest elke dag potentiële klanten als je niet online bent. Het proces is ingewikkeld, duur en vol vertragingen.</p>
+                </div>
+                <div class="ps-card solution">
+                    <span class="ps-label">✅ De Oplossing</span>
+                    <h3 class="ps-title">Wij reageren binnen 24 uur en leveren binnen 48 uur.</h3>
+                    <p class="ps-text">Professionele, mobiel-vriendelijke, SEO-geoptimaliseerde websites die je snel online brengen. Geen concessies aan kwaliteit, geen verborgen kosten. Gewoon een prachtige website die werkt voor jouw bedrijf.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wat Je Krijgt Sectie -->
+    <section id="wat-je-krijgt" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Wat is Inbegrepen</span>
+                <h2 class="section-title">Wat je krijgt</h2>
+                <p class="section-subtitle">Alles wat je nodig hebt om snel online te gaan</p>
+            </div>
+            
+            <div class="checklist">
+                <div class="checklist-item">Reactie op aanvraag binnen 24 uur</div>
+                <div class="checklist-item">Complete website in 48 uur (tot 5 pagina's)</div>
+                <div class="checklist-item">Mobiel-vriendelijk design</div>
+                <div class="checklist-item">SEO basis-optimalisatie</div>
+                <div class="checklist-item">Contactformulier</div>
+                <div class="checklist-item">Google Maps integratie</div>
+                <div class="checklist-item">Social media links</div>
+                <div class="checklist-item">3 maanden gratis hosting</div>
+                <div class="checklist-item">Kleine aanpassingen inbegrepen</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prijs Sectie -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Prijzen</span>
+                <h2 class="section-title">Simpel, transparant tarief</h2>
+            </div>
+            
+            <div style="max-width: 500px; margin: 0 auto;">
+                <div class="price-card">
+                    <p class="price-label">Website in 48 Uur</p>
+                    <p class="price-amount">€399</p>
+                    <p class="price-note">Eenmalig, geen verborgen kosten</p>
+                    <div class="price-features">
+                        <div class="price-feature">Tot 5 pagina's</div>
+                        <div class="price-feature">Mobiel responsive</div>
+                        <div class="price-feature">SEO geoptimaliseerd</div>
+                        <div class="price-feature">Contactformulier</div>
+                        <div class="price-feature">3 maanden hosting</div>
+                        <div class="price-feature">Kleine aanpassingen</div>
+                    </div>
+                    <a href="#contact" class="cta-btn-primary" style="display: inline-block;">Start je project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proces Sectie -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Hoe Het Werkt</span>
+                <h2 class="section-title">Ons 4-stappen proces</h2>
+                <p class="section-subtitle">Van formulier tot live in 48 uur</p>
+            </div>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">📝</div>
+                    <h3 class="step-title">Aanvraag</h3>
+                    <p class="step-desc">Jij vult in, wij reageren binnen 24 uur.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">⚒️</div>
+                    <h3 class="step-title">Wij bouwen</h3>
+                    <p class="step-desc">Ons team bouwt je website binnen 48 uur.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">👀</div>
+                    <h3 class="step-title">Jij keurt goed</h3>
+                    <p class="step-desc">Bekijk op je gemak, vraag kleine wijzigingen aan.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">🚀</div>
+                    <h3 class="step-title">Live!</h3>
+                    <p class="step-desc">Je website gaat direct live.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Sectie -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">FAQ</span>
+                <h2 class="section-title">Veelgestelde vragen</h2>
+            </div>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Kan het echt in 48 uur?
+                        <span class="faq-icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ja! We hebben een gestroomlijnd proces en vooraf gebouwde componenten waarmee we snel kwalitatief hoogwaardige websites kunnen leveren. Voor complexere verzoeken laten we je van tevoren weten als het iets langer zou kunnen duren.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Wat als ik niet tevreden ben?
+                        <span class="faq-icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We bieden revisies aan om ervoor te zorgen dat je tevreden bent met het resultaat. Als je nog steeds niet tevreden bent, hebben we een geld-terug-garantie binnen 7 dagen na oplevering.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Wat kan ik later zelf aanpassen?
+                        <span class="faq-icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We bieden een gebruiksvriendelijk content management systeem waarmee je tekst, afbeeldingen en basiscontent kunt bewerken. Voor ontwerpwijzigingen zijn we altijd beschikbaar om te helpen.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Moet ik de content zelf leveren?
+                        <span class="faq-icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ja, we hebben je tekst en afbeeldingen nodig om de website te maken. Nog niet alles klaar? We kunnen helpen met copywriting en stockfoto's voor een kleine meerprijs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Sectie -->
+    <section id="contact" class="cta-section section-alt">
+        <div class="container">
+            <div class="cta-box">
+                <h2 class="cta-title">Klaar voor je nieuwe website?</h2>
+                <p class="cta-subtitle">Ga online in 48 uur. Geen gedoe, geen wachttijd.</p>
+                <div class="cta-buttons">
+                    <a href="#contact-form" class="cta-btn-primary">Ja, start nu</a>
+                    <a href="index.html#contact" class="cta-btn-secondary">Nee, ik heb vragen</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Formulier Sectie -->
+    <section id="contact-form" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Aan de Slag</span>
+                <h2 class="section-title">Start je 48-uurs website</h2>
+                <p class="section-subtitle">Vul het formulier in en we starten direct</p>
+            </div>
+            
+            <form class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">Naam *</label>
+                        <input type="text" class="form-input" placeholder="Jouw naam" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">E-mail *</label>
+                        <input type="email" class="form-input" placeholder="jouw@email.nl" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">Telefoon</label>
+                        <input type="tel" class="form-input" placeholder="+31 6 12345678">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Bedrijfsnaam</label>
+                        <input type="text" class="form-input" placeholder="Jouw bedrijf">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Vertel ons over je website wensen</label>
+                    <textarea class="form-textarea" placeholder="Welke pagina's heb je nodig? Welke stijl zoek je?"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Start mijn 48-uurs website</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Hoe Het Werkt (Gedeeld) -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Ons Proces</span>
+                <h2 class="section-title">Hoe het werkt</h2>
+                <p class="section-subtitle">Van idee tot live website in 4 eenvoudige stappen</p>
+            </div>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Kennismaking</h3>
+                    <p class="step-desc">We bespreken jouw wensen en doelen in een gratis adviesgesprek.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Ontwerp</h3>
+                    <p class="step-desc">We maken een ontwerp dat perfect bij jouw merk past.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Bouw</h3>
+                    <p class="step-desc">We ontwikkelen je website met de nieuwste technologieën.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Lancering</h3>
+                    <p class="step-desc">Je website gaat live en we bieden support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio (Gedeeld) -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Ons Werk</span>
+                <h2 class="section-title">Onze eerste projecten</h2>
+                <p class="section-subtitle">Word jij onze eerste klant? We staan klaar om jouw project tot een succes te maken.</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-card" style="opacity: 0.7;">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);">
+                        <span style="font-size: 3rem;">🔜</span>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Jouw project hier</h3>
+                        <p class="portfolio-desc">We zijn op zoek naar onze eerste klanten. Jij kunt de eerste zijn!</p>
+                        <span class="portfolio-result" style="background: rgba(99, 102, 241, 0.1); color: var(--primary);">⭐ Speciaal introductietarief</span>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" style="opacity: 0.7;">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
+                        <span style="font-size: 3rem;">💡</span>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Wat we bouwen</h3>
+                        <p class="portfolio-desc">Van websites tot webshops en maatwerk oplossingen.</p>
+                        <span class="portfolio-result" style="background: rgba(245, 158, 11, 0.1); color: #d97706;">🚀 Snelle levering</span>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card" style="opacity: 0.7;">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);">
+                        <span style="font-size: 3rem;">🤝</span>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Samen groeien</h3>
+                        <p class="portfolio-desc">Als eerste klant krijg je extra aandacht en support.</p>
+                        <span class="portfolio-result" style="background: rgba(16, 185, 129, 0.1); color: #059669;">🛡️ 6 maanden gratis support</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 48px;">
+                <a href="#contact" class="btn btn-primary btn-lg">Word onze eerste klant</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials (Gedeeld) -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Testimonials</span>
+                <h2 class="section-title">Jouw testimonial hier</h2>
+                <p class="section-subtitle">Word jij onze eerste tevreden klant? We doen er alles aan om jouw project tot een succes te maken.</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card" style="opacity: 0.7;">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Hier komt binnenkort de eerste testimonial van onze eerste klant. Wil jij dit zijn? Neem contact met ons op!"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%); color: var(--primary);">?</div>
+                        <div>
+                            <div class="testimonial-name">Jij?</div>
+                            <div class="testimonial-role">Onze eerste klant</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" style="opacity: 0.7;">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"We staan te popelen om onze eerste projecten te leveren en positieve reviews te ontvangen. Jouw project kan hier staan!"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); color: #d97706;">?</div>
+                        <div>
+                            <div class="testimonial-name">Jij?</div>
+                            <div class="testimonial-role">Tevreden klant</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" style="opacity: 0.7;">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Als eerste klant krijg je extra aandacht, een speciaal tarief en 6 maanden gratis support. Wat houdt je tegen?"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%); color: #059669;">?</div>
+                        <div>
+                            <div class="testimonial-name">Jij?</div>
+                            <div class="testimonial-role">Ambassadeur</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 48px;">
+                <a href="#contact" class="btn btn-primary btn-lg">Word onze eerste klant</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Over Ons (Gedeeld) -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Over Ons</span>
+                <h2 class="section-title">Het verhaal van VeloxDigital</h2>
+            </div>
+            
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 24px;">
+                    Opgericht in 2026, is VeloxDigital geboren uit een simpele overtuiging: online gaan moet niet ingewikkeld of tijdrovend zijn. We zijn een nieuw webbureau dat klaarstaat om bedrijven te helpen hun digitale aanwezigheid te vestigen met professionele, snel ladende websites.
+                </p>
+                <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-light);">
+                    Ons team van ontwerpers en ontwikkelaars combineert creativiteit met technische expertise. We zijn op zoek naar onze eerste klanten om samen mooie projecten te realiseren. Word jij onze eerste tevreden klant?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">VeloxDigital</div>
+                    <p class="footer-desc">Jouw online succes, gebouwd door experts. Een nieuw webbureau op zoek naar de eerste klanten om samen mooie projecten te realiseren.</p>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Diensten</h4>
+                    <div class="footer-links">
+                        <a href="website-48-uur.html" class="footer-link">Website in 48 Uur</a>
+                        <a href="webshops.html" class="footer-link">E-commerce</a>
+                        <a href="marketing-websites.html" class="footer-link">Marketing Websites</a>
+                        <a href="maatwerk.html" class="footer-link">Maatwerk Ontwikkeling</a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Bedrijf</h4>
+                    <div class="footer-links">
+                        <a href="index.html#over-ons" class="footer-link">Over Ons</a>
+                        <a href="index.html#portfolio" class="footer-link">Portfolio</a>
+                        <a href="#" class="footer-link">Vacatures</a>
+                        <a href="#contact" class="footer-link">Contact</a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="footer-title">Support</h4>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Help Center</a>
+                        <a href="#" class="footer-link">Privacybeleid</a>
+                        <a href="#" class="footer-link">Algemene Voorwaarden</a>
+                        <a href="#" class="footer-link">FAQ</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 VeloxDigital. Alle rechten voorbehouden.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+                    <a href="#" class="social-link" aria-label="Twitter">X</a>
+                    <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
